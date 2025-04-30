@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.achievements]
+path = "contracts/achievements.clar"
+depends_on = []
+
 [contracts.profile]
 path = "contracts/profile.clar"
 depends_on = []
@@ -14,6 +18,14 @@ depends_on = []
 
 [contracts.rewards]
 path = "contracts/rewards.clar"
+depends_on = []
+
+[contracts.skill-tree]
+path = "contracts/skill-tree.clar"
+depends_on = []
+
+[contracts.social]
+path = "contracts/social.clar"
 depends_on = []
 
 [repl]
